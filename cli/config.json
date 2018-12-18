@@ -1,0 +1,25 @@
+{
+    "concurrency": 2,
+    "storage_dir": "./cache",
+    "keep_files": true,
+    "fragment_cut_duration": 20,
+    "soundcloud": {
+        "client_id": "",
+        "batch_size": 50
+    },
+    "recognizer": {
+        "cache_success_responses": true,
+        "normalize_results": true,
+        "acrcloud": {
+            "host": "",
+            "access_key": "",
+            "access_secret": "",
+            "endpoint": "/v1/identify",
+            "signature_version": "1",
+            "data_type": "audio"
+        },
+        "auddmusic": {
+            "api_token": ""
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "soundcloud-track-recognizer-cli",
+  "version": "0.0.1",
+  "description": "Fetches comments and streams from SoundCloud and tries to recognize commented fragments via audio recognition services.",
+  "keywords": [
+    "acrcloud",
+    "api",
+    "auddmusic",
+    "audio",
+    "fingerprinting",
+    "nodejs",
+    "recognition",
+    "soundcloud",
+    "track-id"
+  ],
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iammordaty/soundcloud-track-recognizer.git"
+  },
+  "author": "iammordaty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iammordaty/soundcloud-track-recognizer/issues"
+  },
+  "homepage": "https://github.com/iammordaty/soundcloud-track-recognizer#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "escape-string-regexp": "^1.0.5",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
+    "soundcloud-track-recognizer": "0.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  }
+}
